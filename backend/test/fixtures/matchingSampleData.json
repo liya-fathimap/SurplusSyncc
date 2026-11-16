@@ -1,0 +1,51 @@
+{
+  "referenceTime": "2026-11-14T09:00:00.000Z",
+  "listing": {
+    "_id": "6736d8d09a6b0f625c5f7a11",
+    "status": "available",
+    "foodCategory": "Produce",
+    "quantity": 15,
+    "availableQuantity": 15,
+    "unit": "kg",
+    "preparedAt": "2026-11-14T08:00:00.000Z",
+    "collectionDeadline": "2026-11-14T12:00:00.000Z",
+    "location": {
+      "type": "Point",
+      "coordinates": [-73.9857, 40.7484]
+    }
+  },
+  "ngos": [
+    {
+      "_id": "6736d8d09a6b0f625c5f7a21",
+      "name": "Nearby Community Kitchen",
+      "organizationName": "Nearby Kitchen",
+      "role": "ngo",
+      "isActive": true,
+      "isVerified": true,
+      "acceptedFoodCategories": ["produce"],
+      "pickupCapacity": [{ "unit": "kg", "maxQuantity": 15 }],
+      "distanceMeters": 5000
+    },
+    {
+      "_id": "6736d8d09a6b0f625c5f7a22",
+      "name": "Regional Food Bank",
+      "organizationName": "Regional Food Bank",
+      "role": "ngo",
+      "isActive": true,
+      "isVerified": true,
+      "acceptedFoodCategories": [],
+      "pickupCapacity": [{ "unit": "kg", "maxQuantity": 8 }],
+      "distanceMeters": 18000
+    },
+    {
+      "_id": "6736d8d09a6b0f625c5f7a23",
+      "name": "Unverified Kitchen",
+      "role": "ngo",
+      "isActive": true,
+      "isVerified": false,
+      "acceptedFoodCategories": ["produce"],
+      "pickupCapacity": [{ "unit": "kg", "maxQuantity": 20 }],
+      "distanceMeters": 1000
+    }
+  ]
+}
